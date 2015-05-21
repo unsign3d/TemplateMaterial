@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.unsigned.provamaterial.MenuDrawer"
+    android:background="#fff"
+    android:id="@+id/fragment_menu_drawer">
+
+    <!-- layout esterno -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- finta barra toolbar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:id="@+id/ll_header_nav"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Qui ci andranno i 2 loghi"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                />
+
+        </LinearLayout>
+        <!-- Da qui iniziano le scritte per il menu -->
+
+        <!-- ogni relative layout è una riga -->
+
+        <com.gc.materialdesign.views.LayoutRipple
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp"
+            android:weightSum="10"
+            android:clickable="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:paddingLeft="32dp"
+                android:gravity="center_vertical"
+                android:layout_weight="9"
+                />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <include layout="@layout/border_bottom" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Prodotti"
+            android:paddingLeft="32dp"
+            android:gravity="center_vertical"
+            />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <include layout="@layout/border_bottom" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Concorso"
+            android:paddingLeft="32dp"
+            android:gravity="center_vertical"
+            />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <include layout="@layout/border_bottom" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Profilo personale"
+            android:paddingLeft="32dp"
+            android:gravity="center_vertical"
+            />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+        <include layout="@layout/border_bottom" />
+        <com.gc.materialdesign.views.LayoutRipple
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Impostazioni"
+            android:paddingLeft="32dp"
+            android:gravity="center_vertical"
+            />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+
+        <include layout="@layout/border_bottom" />
+
+        <com.gc.materialdesign.views.LayoutRipple
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Help"
+            android:paddingLeft="32dp"
+            android:gravity="center_vertical"
+
+            />
+
+        </com.gc.materialdesign.views.LayoutRipple>
+        <include layout="@layout/border_bottom" />
+
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:text="Lorem ipsum dolor sit amet"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>
