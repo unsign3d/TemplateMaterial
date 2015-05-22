@@ -8,20 +8,15 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
         <include layout="@layout/action_bar"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/action_bar">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="ajdsfhiasdfhsdaòifhdsih"/>
-        </LinearLayout>
-
+        <!-- main content -->
+        <include layout="@layout/main_content" android:visibility="gone" android:id="@+id/main_content"/>
+        <!-- login style -->
+        <include layout="@layout/activity_login" android:visibility="visible" android:id="@+id/activity_login"/>
     </RelativeLayout>
 
     <fragment

@@ -41,6 +41,7 @@ public class MenuDrawer extends Fragment {
 
     }
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_menu_drawer, container, false);
@@ -104,6 +105,7 @@ public class MenuDrawer extends Fragment {
         });
 
     }
+
 
     public static void saveToPreference (Context context, String preferenceName, String preferenceValue) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(PREF_FILE_NAME, Context.MODE_PRIVATE);

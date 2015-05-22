@@ -1,12 +1,25 @@
 <resources>
     <string name="app_name">ProvaMaterial</string>
 
+    <!-- stuff that was already there -->
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+
+    <!-- drawer stuff -->
     <string name="drawer_open">Drawer open</string>
     <string name="drawer_close">Drawer close</string>
 
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- facebook stuff -->
+    <string name="facebook_app_id">831383186937035</string>
+    <string name="facebook_onCancel">You need to give permission to the app if you want to login
+        with facebook</string>
+    <string name="facebook_onError">There has been an error with the Facebook login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- custom for the app -->
+    <string name="log_tag">com.unsigned.provamaterial</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>

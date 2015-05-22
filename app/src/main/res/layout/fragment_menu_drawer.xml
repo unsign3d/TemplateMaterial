@@ -53,9 +53,10 @@
         <include layout="@layout/border_bottom" />
 
         <com.gc.materialdesign.views.LayoutRipple
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/abc_action_bar_default_height_material"
-        android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:clickable="true">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -69,9 +70,10 @@
         <include layout="@layout/border_bottom" />
 
         <com.gc.materialdesign.views.LayoutRipple
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/abc_action_bar_default_height_material"
-        android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:clickable="true">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -85,9 +87,10 @@
         <include layout="@layout/border_bottom" />
 
         <com.gc.materialdesign.views.LayoutRipple
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/abc_action_bar_default_height_material"
-        android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:clickable="true">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -99,9 +102,10 @@
         </com.gc.materialdesign.views.LayoutRipple>
         <include layout="@layout/border_bottom" />
         <com.gc.materialdesign.views.LayoutRipple
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/abc_action_bar_default_height_material"
-        android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:clickable="true"
         >
         <TextView
             android:layout_width="match_parent"
@@ -116,9 +120,10 @@
         <include layout="@layout/border_bottom" />
 
         <com.gc.materialdesign.views.LayoutRipple
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/abc_action_bar_default_height_material"
-        android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:orientation="horizontal"
+            android:clickable="true">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -139,5 +144,8 @@
         android:paddingLeft="16dp"
         android:paddingTop="16dp"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:onClick="logout"
+        android:id="@+id/logout_button"/>
 </RelativeLayout>
